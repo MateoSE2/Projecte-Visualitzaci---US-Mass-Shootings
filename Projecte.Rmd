@@ -1,1 +1,71 @@
-# test
+---
+title: "Projecte"
+output: html_document
+date: '2022-05-02'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Projecte de Visualització de Daes
+
+```{r code1}
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+shootings2 <- read.csv("~/Desktop/shootings2.csv") 
+```
+
+
+```{r code2}
+NEWShootings <- shootings2%>%separate(date, sep="-", into=c("year", "month", "day"))
+View(NEWShootings)
+```
+
+```{r code3}
+NEWShootings%>%ggplot(aes(age))+geom_histogram(binwidth=0.7, fill='pink', color='black')+ggtitle("Histograma de muertes por edad del dataset")+xlab("Años del fallecido")+ylab("#Personas")
+```
+
+```{r code4}
+NEWShootings%>%ggplot(aes(x=gender, y=age, fill=gender))+geom_violin()+ggtitle("Diagrama de violin representando edad vs genero")+ylab("Edad")+scale_x_discrete("Género", labels= c("Mujeres", "Hombres"))+scale_fill_discrete("Género", labels=c("Mujeres", "Hombres")) 
+```
+
+```{r code5}
+NEWShootings%>%ggplot(aes(x=race, fill=race))+geom_bar()+ ylab("# Personas")+xlab("Raza del fallecido")+scale_fill_discrete("Raza del fallecido")+ggtitle("Diagrama de barras del número de fallecidos por raza")
+```
+
+```{r code6}
+NEWShootings%>%ggplot(aes(x=fct_infreq(state), fill=race))+geom_bar()+ ylab("# Fallecidos")+xlab("Estado")+scale_fill_discrete("Raza del fallecido")+ggtitle("Diagrama de barras de los estados y sus muertes (razas) ")+coord_flip() 
+
+```
+
+```{r code7}
+
+NEWShootings%>%ggplot(aes(manner_of_death))+geom_bar(fill='pink', color='black')+ggtitle("Diagrama de barras de tipos de muertes")+xlab("Tipo de muerte")+ylab("#Personas")
+
+```
+```{r code8}
+
+NEWShootings%>%ggplot(aes(arms_category))+geom_bar(fill='pink', color='black')+ggtitle("Diagrama de barras de categoria de arma")+xlab("Categoria de arma")+ylab("#Personas")+ coord_flip()
+
+```
+```{r code9}
+NEWShootings%>%ggplot(aes(x=fct_infreq(state), fill=gender))+geom_bar()+ ylab("# Fallecidos")+xlab("Estado")+scale_fill_discrete("Género del fallecido", labels= c("Mujer", "Hombre"))+ggtitle("Diagrama de barras de los estados y sus muertes (género) ")+coord_flip() 
+
+```
+
+
+```{r code10}
+NEWShootings%>%ggplot(aes(year))+geom_bar(fill='pink', color='black')+ggtitle("Diagrama de barras del número de muertes por año")+xlab("Año")+ylab("#Personas")
+```
+
+
+```{r code11}
+NEWShootings%>%ggplot(aes(month))+geom_bar(fill='pink', color='black')+ggtitle("Diagrama de barras del número de muertes por mes")+xlab("Mes")+ylab("#Personas")
+```
+
+
+```{r code12}
+NEWShootings%>%ggplot(aes(flee))+geom_bar(fill='pink', color='black')+ggtitle("Diagrama de barras  sobre el tipo de resistencia ")+xlab("Tipo de resistencia")+ylab("#Personas")
+```
