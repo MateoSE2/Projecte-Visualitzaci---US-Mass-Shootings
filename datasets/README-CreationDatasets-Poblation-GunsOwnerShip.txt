@@ -1,0 +1,4 @@
+El dataset GunsOwnerShip_dataset.csv se ha elaborado a partir de un filtrado que está en el Script de R Filtrat_Datasets_Poblation_Guns.R, este proviene del dataset original nics-firearm... ("https://raw.githubusercontent.com/BuzzFeedNews/nics-firearm-background-checks/master/data/nics-firearm-background-checks.csv")
+
+El dataset de Poblation_dataset.csv se ha hecho a partir de otro filtrado que está en el mismo Script comentado anteriormente. Y este proviene del dataset nstis-est2020-alldata.csv ("https://data.world/buzzfeednews/nics-background-check-counts"}}{\fldrslt 
+\f1 \cf2 https://www2.census.gov/programs-surveys/popest/datasets/2010-2020/national/totals/)
