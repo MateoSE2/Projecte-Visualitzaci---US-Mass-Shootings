@@ -1,0 +1,53 @@
+Country,ISO_Code,Level,GDLCODE,Region,"2015","2016","2017","2018","2019"
+"United States","USA","National","USAt","Total",0.965,0.966,0.969,0.973,0.976
+"United States","USA","Subnat","USAr101","Alabama",0.918,0.920,0.922,0.926,0.929
+"United States","USA","Subnat","USAr102","Alaska",1.000,1.000,1.000,1.000,1.000
+"United States","USA","Subnat","USAr103","Arizona",0.924,0.925,0.927,0.931,0.934
+"United States","USA","Subnat","USAr104","Arkansas",0.915,0.916,0.918,0.922,0.925
+"United States","USA","Subnat","USAr105","California",0.986,0.989,0.991,0.995,0.998
+"United States","USA","Subnat","USAr106","Colorado",0.973,0.973,0.975,0.979,0.982
+"United States","USA","Subnat","USAr107","Connecticut",1.000,1.000,1.000,1.000,1.000
+"United States","USA","Subnat","USAr108","Delaware",1.000,1.000,1.000,1.000,1.000
+"United States","USA","Subnat","USAr109","District of Columbia",1.000,1.000,1.000,1.000,1.000
+"United States","USA","Subnat","USAr110","Florida",0.927,0.929,0.931,0.935,0.938
+"United States","USA","Subnat","USAr111","Georgia",0.945,0.948,0.950,0.954,0.957
+"United States","USA","Subnat","USAr112","Hawaii",0.966,0.968,0.971,0.975,0.978
+"United States","USA","Subnat","USAr113","Idaho",0.912,0.912,0.915,0.918,0.921
+"United States","USA","Subnat","USAr114","Illinois",0.975,0.977,0.979,0.983,0.986
+"United States","USA","Subnat","USAr115","Indiana",0.948,0.950,0.952,0.956,0.959
+"United States","USA","Subnat","USAr116","Iowa",0.965,0.966,0.968,0.972,0.975
+"United States","USA","Subnat","USAr117","Kansas",0.955,0.955,0.958,0.962,0.964
+"United States","USA","Subnat","USAr118","Kentucky",0.925,0.927,0.929,0.933,0.936
+"United States","USA","Subnat","USAr119","Louisiana",0.946,0.945,0.947,0.951,0.954
+"United States","USA","Subnat","USAr120","Maine",0.925,0.926,0.929,0.933,0.935
+"United States","USA","Subnat","USAr121","Maryland",0.979,0.980,0.983,0.987,0.990
+"United States","USA","Subnat","USAr122","Massachusetts",1.000,1.000,1.000,1.000,1.000
+"United States","USA","Subnat","USAr123","Michigan",0.940,0.943,0.945,0.949,0.952
+"United States","USA","Subnat","USAr124","Minnesota",0.975,0.976,0.978,0.982,0.985
+"United States","USA","Subnat","USAr125","Mississippi",0.895,0.896,0.898,0.902,0.905
+"United States","USA","Subnat","USAr126","Missouri",0.941,0.943,0.945,0.949,0.952
+"United States","USA","Subnat","USAr127","Montana",0.929,0.928,0.930,0.934,0.937
+"United States","USA","Subnat","USAr128","Nebraska",0.973,0.974,0.976,0.980,0.983
+"United States","USA","Subnat","USAr129","Nevada",0.944,0.944,0.947,0.951,0.954
+"United States","USA","Subnat","USAr130","New Hampshire",0.966,0.970,0.972,0.977,0.979
+"United States","USA","Subnat","USAr131","New Jersey",0.983,0.985,0.987,0.991,0.994
+"United States","USA","Subnat","USAr132","New Mexico",0.937,0.936,0.938,0.942,0.945
+"United States","USA","Subnat","USAr133","New York",1.000,1.000,1.000,1.000,1.000
+"United States","USA","Subnat","USAr134","North Carolina",0.946,0.946,0.949,0.953,0.955
+"United States","USA","Subnat","USAr135","North Dakota",1.000,0.999,1.000,1.000,1.000
+"United States","USA","Subnat","USAr136","Ohio",0.955,0.957,0.959,0.963,0.966
+"United States","USA","Subnat","USAr137","Oklahoma",0.952,0.947,0.950,0.954,0.956
+"United States","USA","Subnat","USAr138","Oregon",0.964,0.966,0.969,0.973,0.976
+"United States","USA","Subnat","USAr139","Pennsylvania",0.966,0.968,0.970,0.974,0.977
+"United States","USA","Subnat","USAr140","Rhode Island",0.956,0.957,0.960,0.964,0.966
+"United States","USA","Subnat","USAr141","South Carolina",0.918,0.919,0.921,0.925,0.928
+"United States","USA","Subnat","USAr142","South Dakota",0.958,0.959,0.961,0.965,0.968
+"United States","USA","Subnat","USAr143","Tennessee",0.941,0.943,0.945,0.949,0.952
+"United States","USA","Subnat","USAr144","Texas",0.978,0.976,0.978,0.982,0.985
+"United States","USA","Subnat","USAr145","Utah",0.946,0.947,0.950,0.954,0.956
+"United States","USA","Subnat","USAr146","Vermont",0.943,0.945,0.947,0.951,0.954
+"United States","USA","Subnat","USAr147","Virginia",0.970,0.970,0.972,0.976,0.979
+"United States","USA","Subnat","USAr148","Washington",0.981,0.984,0.987,0.991,0.994
+"United States","USA","Subnat","USAr149","West Virginia",0.916,0.916,0.918,0.922,0.925
+"United States","USA","Subnat","USAr150","Wisconsin",0.955,0.956,0.958,0.962,0.965
+"United States","USA","Subnat","USAr151","Wyoming",0.995,0.989,0.992,0.996,0.999
